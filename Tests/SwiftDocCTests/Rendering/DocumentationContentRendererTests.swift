@@ -133,8 +133,6 @@ class DocumentationContentRendererTests: XCTestCase {
     }
     
     func testRenderKindAndRoleForAPICollection() throws {
-        throw XCTSkip("TDD: Temporarily disabled while implementing API Collection icon fix")
-
         // Articles with task groups should get collectionGroup role for external references
         let apiCollectionSummary = LinkDestinationSummary(
             kind: .article,
